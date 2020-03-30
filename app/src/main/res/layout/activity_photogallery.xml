@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photogalleryActivity">
+
+
+
+
+
+
+
+
+
+
+    <Button
+
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Info"
+        android:textSize="15sp"
+
+
+
+
+
+        />
+
+
+    <ImageView
+
+        android:id="@+id/natureId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/nature"
+
+
+
+        />
+
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/raspberriesId"
+        android:src="@drawable/raspberries"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        />
+
+
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/plId"
+        android:src="@drawable/pl"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        />
+
+
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/spaceId"
+        android:src="@drawable/space"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        />
+
+
+    <ImageView
+
+        android:visibility="gone"
+        android:id="@+id/technologyId"
+        android:src="@drawable/technology"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        />
+
+
+</FrameLayout>

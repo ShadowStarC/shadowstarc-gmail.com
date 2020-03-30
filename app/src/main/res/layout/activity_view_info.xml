@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+
+
+    tools:context=".viewInfoActivity">
+
+
+
+
+
+        <TableRow>
+
+
+
+            android:id="@+id/tableRowId"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+
+
+            <TextView
+
+
+                android:layout_span="4"
+                android:layout_gravity="center_horizontal"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="  Image Info"
+
+
+
+                />
+
+
+        </TableRow>
+
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/headerId"
+
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:text="Id"
+            android:textColor="#F30B13"
+            android:textStyle="bold"
+
+
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:text="Date"
+            android:textColor="#F30B13"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:text="Place"
+            android:textColor="#F30B13"
+            android:textStyle="bold"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:text="Description"
+            android:textColor="#F30B13"
+            android:textStyle="bold"
+
+
+            />
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/3Id"
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="  1"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="25/03/20"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text=" Canada"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="    fav pic"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/4Id"
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="  2"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="26/03/20"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text=" Germany"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="    nice pic"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/5Id"
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="  3"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="27/03/20"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text=" Australia"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="    amazing"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/6Id"
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="  4"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="28/03/20"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text=" Australia"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="    nice one"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+
+
+        android:id="@+id/7Id"
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="  5"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="30/03/20"
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text=" USA"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:text="    best"
+
+
+            />
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>
+
+
+
+
